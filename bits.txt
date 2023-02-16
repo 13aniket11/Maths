@@ -83,5 +83,6 @@ so final conclusion is after left shift numbers get multiplied by its base.(2,8 
 
 2. right shift.
 
+Similarly, when we right shift the bit sequence then that numbers get divide by its base. i.e 12 will become 6 in binary representation.
 
 writer - Aniket Vyawahare
