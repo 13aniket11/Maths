@@ -9,7 +9,7 @@ we have several representaions format on the basis of its base. example 10 base 
 Lets understand by Example
 
 if 5 is a decimal number with base 10.
-so this decimal 5 is equivalent to binary 1010.
+so this decimal 5 is equivalent to binary 101.
 
 lets know in depth.
 
