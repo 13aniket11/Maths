@@ -1,0 +1,87 @@
+writer - Aniket Vyawahare
+
+Bits i.e 0 and 1
+
+binary representaion of any numbers have 0s and 1s...
+
+we have several representaions format on the basis of its base. example 10 base known as "decimal", 2 base known as "binary" etc.
+
+Lets understand by Example
+
+if 5 is a decimal number with base 10.
+so this decimal 5 is equivalent to binary 1010.
+
+lets know in depth.
+
+In genral we use Decimal format who has 10 base, but we didn't always mention about it.
+
+as dec means 10.
+
+similarly,
+bin means 2
+oct means 8
+hexdec means 16
+
+so this were the other commonly known representaion formats.
+
+
+
+Now lets understand how can we convert one format to other.
+1. dec to bin
+
+algorithm-
+
+n=5;
+string s = "";
+while(n>0)
+{
+s+=n%2;
+	n/=2;
+}
+reverse(s);
+
+others are under construction
+
+.
+.
+.
+.
+.
+we will work on next time
+.
+.
+.
+
+
+
+now lets play with bits
+
+1. left shift
+
+suppose we have 10101
+after left shift
+
+10101 -> 101010
+21	 42
+---------------------------eq1
+
+suppose we have 111
+after left shift
+
+111 -> 1110
+7      14
+---------------------------eq2
+
+from eq1 and eq2
+
+it is proven that after left shift number gets doubled.
+
+in formal if number is in binary then it gets doubled if its in decimal then it becomes 10 times and so on...
+
+so final conclusion is after left shift numbers get multiplied by its base.(2,8 or 10 etc)
+
+
+2. right shift.
+
+
+writer - Aniket Vyawahare

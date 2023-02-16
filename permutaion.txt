@@ -1,0 +1,59 @@
+writer - Aniket Vyawahare
+
+Topic - Permutation
+
+n=3;
+123
+132
+213
+231
+312
+321
+
+Total 6 Permutaions
+-----------------------------------------eq 1
+P = npr = n!/(n-r)!
+here
+n=3,r=3;
+
+P = 3!/(3-3)! = 3!/0! = 3! = 6;
+--------------------------------------------eq2
+
+from eq1 and eq2
+hence proved;;;
+
+2. Combinations-
+
+C = ncr = n!/r!(n-r)!
+
+let n=3,r=3;
+
+123
+i.e total 1 combination gets
+-----------------------------------eq1
+
+as C = ncr = 3c3 = 3!/3!0! = 1
+-----------------------------------------eq2
+
+so,
+we get 1 combination only.
+
+lets suppose n=3,r=2;
+
+12
+23
+13
+
+total 3 combinations found;
+----------------------------------eq3
+
+as C = 3c2 = 3!/2!1! = 3
+-------------------------------------eq4
+
+
+from eq1 eq2 eq3 eq4
+
+hence proved...
+
+
+writer - Aniket Vyawahare
